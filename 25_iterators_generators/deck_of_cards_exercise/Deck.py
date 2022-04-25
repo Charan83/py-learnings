@@ -22,6 +22,10 @@ class Deck:
     def __repr__(self):
         return f"Deck of {len(self.cards)} cards"
 
+    def __iter__(self):
+        # return self.cards  # iter() returned non-iterator of type 'list'
+        return iter(self.cards)
+
     def _deal(self, num):
         if len(self.cards) < num & len(self.cards) != 0:
             self.cards = []
@@ -52,10 +56,10 @@ class Deck:
 
 if __name__ == '__main__':
     deck1 = Deck()
-    print(deck1.cards)
+"""     print(deck1.cards)
     deck1.shuffle()
     print("******Shuffle in progress******")
-    print(deck1.cards)
+    print(deck1.cards) """
 """     print(deck1.deal_card())
     print(deck1)
     print(deck1.deal_hand(20))
