@@ -21,5 +21,5 @@ for c in Counter(1, 10):
     print(c)
 
 #   - in the for loop Counter(1, 10) --> calls __init__ first
-#   - then for loop will create an iterator = iter(Counter(1,10))
+#   - then for loop will create an iterator = iter(Counter(1,10)) -> self
 #   - next(iterator) will be called until it raises StopIteration error
