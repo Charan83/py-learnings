@@ -72,4 +72,4 @@ if __name__ == '__main__':
     print(deck1) """
 
 for d in deck1:
-    print(d)  # 'Deck' object is not iterable
+    print(d)  # 'Deck' object is not iterable error will come, so we need to implement __iter__ for the Deck class and it should return an iterator
