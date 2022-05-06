@@ -13,4 +13,3 @@ jobs:
           node -v
           npm -v
           python3 --version
-          git log -1
