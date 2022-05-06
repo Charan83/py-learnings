@@ -1,0 +1,3 @@
+Writing to the file using python!
+File is automatically created if its not there
+with 'w' flag every time we close and write to the file, we are overwriting the file

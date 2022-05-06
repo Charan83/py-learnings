@@ -1,0 +1,4 @@
+To append data to a file use 'a' as second argument
+Existing content in the file is not lost
+This is to show appen will not remove the previous data in the file
+Hence Proved!!!
