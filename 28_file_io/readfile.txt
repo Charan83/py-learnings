@@ -1,0 +1,2 @@
+We are reading file using python
+To move the cursor we use seek
