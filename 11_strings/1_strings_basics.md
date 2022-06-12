@@ -1,0 +1,11 @@
+# String 
+- are ordered sequesnces
+- can use indexing and slicing to grab sub-sections of the string
+- In Python both positve and negative index are allowed
+  - [-1] : last character in the string
+  - [1] : first character in the string
+- slicing : [start, stop, step]
+  - stop is not including
+- \n : newline
+- \t : tab
+- len : length of string
