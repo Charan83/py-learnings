@@ -1,5 +1,5 @@
 # example 1 : even/odd
-# on if, then it will come at the end
+# if :  then it will come at the end
 nums = list(range(1, 15))
 evens = [num for num in nums if num % 2 == 0]
 odds = [num for num in nums if num % 2 != 0]
