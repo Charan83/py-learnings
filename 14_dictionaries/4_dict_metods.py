@@ -34,7 +34,7 @@ print(user_info_copy == user_info_copied)
 #   - 'is' will tell if both are same objects in the memory or different (similar to : '===' is JS)
 print(user_info_copy is user_info_copied)
 
-# fromKeys()
+# fromkeys()
 #   - creates keys-value pairs from comma separated values of iterable (list, strings)
 #   - first argument if its iterable then each item in the iterable is the key and will be assigned the value(2nd param)
 #   - will be called on a dictionary
@@ -81,13 +81,12 @@ print(dict1.get('no_key'))  # returns 'None'
 #   - pops the item(key,val pair) whose key is passed(key should be passed (mandatory) or we get TypeError)
 #   - returns the value for the key
 #   - KeyError if non existing key is passed
-#   - Original list is changed
 print(f"*****dictionary method : pop()*****")
 dict2 = dict(a=1, b=2, c=3)
 # d.pop() --> key should be passed (mandatory) or we get TypeError
 print(dict2.pop('c'))  # 3
 # print(dict2.pop('error'))  # KeyError
-print(dict2)  # Original list is changed
+print(dict2)
 
 # popitem()
 #   - removed random item(key,value pair) from the dictionary
