@@ -1,7 +1,7 @@
 #   single underscore
-#       - _<name> : private variable of a class (only convension as in python everything is public)
+#       - _name : private variable of a class (only convension as in python everything is public)
 
-#   __<name>__
+#   __name__
 #       - __init__() : we dont define these normally, only when we want to overwrite python special methods like __init__
 
 #   __<name>
