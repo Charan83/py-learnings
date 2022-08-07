@@ -2,6 +2,7 @@
 #       - an object can take on many(poly) forms(morph)
 #       - two imp practical application of polymorphism
 #           - the same class method works in a different way for different classes (method overwriting)
+#               - child class method overwrites the parent class method, to have more specific implementation    
 #               - ex: __repr__()
 #           - the same mehod with in the class works different for different kinds of objects (method overloading)
 #               - ex: len('string'), len([1,2,3,4])
